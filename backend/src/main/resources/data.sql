@@ -42,4 +42,16 @@ VALUES ('Carmen');
 
 
 INSERT INTO loan(game_id, client_id, loan_date, return_date)
-VALUES ('1', '2', '2024-12-23', '2025-1-23');
+VALUES ('1', '2', '2024-12-23', '2025-1-1');
+INSERT INTO loan(game_id, client_id, loan_date, return_date)
+VALUES ('2', '1', '2025-3-1', '2025-3-20');
+INSERT INTO loan(game_id, client_id, loan_date, return_date)
+VALUES ('3', '3', '2024-11-3', '2025-11-13');
+INSERT INTO loan(game_id, client_id, loan_date, return_date)
+VALUES ('4', '4', '2024-9-21', '2025-10-2');
+INSERT INTO loan(game_id, client_id, loan_date, return_date)
+VALUES ('5', '3', '2025-1-25', '2025-2-4');
+INSERT INTO loan(game_id, client_id, loan_date, return_date)
+VALUES ('6', '1', '2025-3-2', '2025-3-14');
+INSERT INTO loan(game_id, client_id, loan_date, return_date)
+VALUES ('2', '2', '2025-3-15', '2025-3-28');
